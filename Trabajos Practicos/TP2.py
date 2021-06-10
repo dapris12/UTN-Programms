@@ -3,7 +3,7 @@
 # Sumamos los resultados de los dados
 
 
-def parity(a, b, c):
+def summation(a, b, c):
     summation = a + b + c
     return summation
 
@@ -52,7 +52,7 @@ def main():
         "Ingrese el maximo de puntos que debera alcanzar un jugador para finalizar: "))
 
     # Random numbers Summation Replace numbers for random.range(x,x)
-    dicesrandom = parity(2, 2, 4)
+    dicesrandom = summation(2, 2, 4)
     hit_parity(dicesrandom, 2, 2, 4)
     print(dicesrandom)  # Print 212
 
